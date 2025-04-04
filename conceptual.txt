@@ -1,0 +1,13 @@
+Since Front end is using RxJS to handel the real time updates backend need to provide continuous stream of events.
+As you have mention we do have different approches to perfrom this they are :
+  1. Server Sent Events(SSE) --> Unidirectional.
+  2. WebScokets --> Bidirectional.
+
+As of now its a light solution we can preffer SSE.
+
+How Actually a SSE works?
+    SSE is a light weight and efficient way to stream task updates.
+    1. Client subscribe to task updates by opening a connection using rxjs-sse fromEventSource().
+    2. Server pushes the updates when ever a change happend and we do have list of subscribe in server to trigger the change.
+    3. RxJS handle the stream to update UI.
+     
