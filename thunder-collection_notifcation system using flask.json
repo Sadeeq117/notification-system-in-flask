@@ -1,0 +1,69 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "notifcation system using flask",
+    "collectionId": "c0485715-fadf-4c7a-8bcf-b0364df76d55",
+    "dateExported": "2025-04-04T04:28:16.296Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "20a9e557-e6fc-4778-b47a-d7d285632b75",
+            "colId": "c0485715-fadf-4c7a-8bcf-b0364df76d55",
+            "containerId": "",
+            "name": "get task details",
+            "url": "http://127.0.0.1:5000//api/tasks",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2025-04-04T03:31:25.293Z",
+            "modified": "2025-04-04T03:31:25.293Z",
+            "headers": []
+        },
+        {
+            "_id": "733a34fe-a5d1-48ad-99f0-b50015c9bda2",
+            "colId": "c0485715-fadf-4c7a-8bcf-b0364df76d55",
+            "containerId": "",
+            "name": "Create a new task",
+            "url": "http://127.0.0.1:5000//api/tasks",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2025-04-04T03:38:24.299Z",
+            "modified": "2025-04-04T03:38:24.299Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\" : \"Pay Credit Card Bills\",\n  \"due_date\": \"2025-04-20\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "aeba84a9-e5fa-40be-a5ec-713d8360f44a",
+            "colId": "c0485715-fadf-4c7a-8bcf-b0364df76d55",
+            "containerId": "",
+            "name": "update a task",
+            "url": "http://127.0.0.1:5000//api/tasks/2",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2025-04-04T03:41:06.191Z",
+            "modified": "2025-04-04T03:41:06.191Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"title\" : \"Pay Credit Card Bills\",\n  \"due_date\": \"2025-04-03\",\n  \"completed\" : true\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "ababa450-3fc0-4d8b-b592-d7149f6efc93",
+            "colId": "c0485715-fadf-4c7a-8bcf-b0364df76d55",
+            "containerId": "",
+            "name": "To delete the task",
+            "url": "http://127.0.0.1:5000//api/tasks/1",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2025-04-04T04:25:29.355Z",
+            "modified": "2025-04-04T04:25:29.355Z",
+            "headers": []
+        }
+    ],
+    "ref": "uETw6pB3dWqlartxxX4sL64EOWrU_WOX4vcvUnJZnsFFQx4xCh99aQ-PPu_zrlRWH192zVtBrZqDvl6hVKiNHw"
+}
